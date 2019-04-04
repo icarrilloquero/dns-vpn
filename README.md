@@ -31,4 +31,4 @@ Just edit the getConf.sh script with the desired client name and the client conf
 
 ## Acknowledgments
 
-[kylemanna](https://github.com/kylemanna/docker-openvpn) For their great OpenVPN docker images
+[kylemanna](https://github.com/kylemanna/docker-openvpn) for their great OpenVPN docker images
