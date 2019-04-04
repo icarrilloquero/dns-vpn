@@ -17,6 +17,7 @@ Clone the repo and add a custom .env file as follows:
 PROTOCOL=<tcp or udp>
 OVPN_URI="$PROTOCOL://<YOUR_HOST>"
 DNS=<YOUR_DNS_SERVER_IP>
+VPN_PORT=<YOUR_VPN_PORT>
 ```
 
 Then just run initVPN.sh and follow the steps to initialize the configuration and server certificates. When done, run the OpenVPN container:
