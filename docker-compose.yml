@@ -1,0 +1,18 @@
+version: "3"
+services:
+
+  vpn:
+    volumes:
+      - ads-ovpn-data:/etc/openvpn
+    environment:
+      - TZ=Europe/Madrid
+    ports:
+      - ${VPN_PORT:-1194}:1194/tcp
+    restart: unless-stopped
+    cap_add:
+      - NET_ADMIN
+    image: icarrilloquero/rpi-openvpn
+
+volumes:
+  ads-ovpn-data:
+    external: true
