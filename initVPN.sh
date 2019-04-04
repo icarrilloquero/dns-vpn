@@ -1,4 +1,6 @@
 #!/bin/bash
+. .env
+
 IMAGE=icarrilloquero/rpi-openvpn
 BUFFER_CLIENT=393216
 OVPN_DATA=ads-ovpn-data
